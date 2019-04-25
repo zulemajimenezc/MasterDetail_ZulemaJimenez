@@ -14,7 +14,7 @@
         <activity
             android:name=".ArticuloListActivity"
             android:label="@string/title_articulo_list"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ArticuloDetailActivity"
             android:label="@string/title_articulo_detail"
@@ -32,10 +32,11 @@
             android:name=".ActivityListaArticulos"
             android:label="@string/title_activity_lista_articulos"
             android:theme="@style/AppTheme.NoActionBar">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN"/>
-            <category android:name="android.intent.category.LAUNCHER"/>
-        </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

@@ -40,6 +40,7 @@ public class ActivityDetalleArticulo extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_detalle_articulo, menu);
         return super.onCreateOptionsMenu(menu);
     }
 

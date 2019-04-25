@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">MasterDetail</string>
     <string name="title_activity_lista_articulos">ActivityListaArticulos</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_detalle_articulo">ActivityDetalleArticulo</string>
     <string name="title_articulo_list">Articulos</string>
     <string name="title_articulo_detail">Articulo Detail</string>
+    <string name="title_activity_prueba">prueba</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

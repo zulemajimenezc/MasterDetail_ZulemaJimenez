@@ -37,7 +37,8 @@ public class FragmentDetalleArticulo extends Fragment {
 
         if (itemDetallado != null) {
             Toolbar toolbar = (Toolbar) v.findViewById(R.id.toolbar_detalle);
-
+            if (toolbar != null)
+                toolbar.inflateMenu(R.menu.menu_detalle_articulo);
 
             ((TextView) v.findViewById(R.id.titulo)).setText(itemDetallado.titulo);
             ((TextView) v.findViewById(R.id.fecha)).setText(itemDetallado.fecha);
