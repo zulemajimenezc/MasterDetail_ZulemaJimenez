@@ -42,7 +42,7 @@ public class FragmentDetalleArticulo extends Fragment {
 
             ((TextView) v.findViewById(R.id.titulo)).setText(itemDetallado.titulo);
             ((TextView) v.findViewById(R.id.fecha)).setText(itemDetallado.fecha);
-            ((TextView) v.findViewById(R.id.contenido)).setText(itemDetallado.descripcion);
+            ((TextView) v.findViewById(R.id.contenido)).setText(getText(R.string.lorem));
             Glide.with(this)
                     .load(itemDetallado.urlMiniatura)
                     .into((ImageView) v.findViewById(R.id.imagen));

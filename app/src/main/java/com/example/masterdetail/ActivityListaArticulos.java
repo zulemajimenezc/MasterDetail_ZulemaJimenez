@@ -14,7 +14,7 @@ public class ActivityListaArticulos extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_articulos);
 
-        ((Toolbar) findViewById(R.id.toolbar)).setTitle(getTitle());
+        ((Toolbar) findViewById(R.id.toolbar)).setTitle("Tips de Salud");
 
         if (findViewById(R.id.contenedor_detalle_articulo) != null) {
             dosPaneles = true;

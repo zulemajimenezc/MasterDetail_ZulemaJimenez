@@ -12,19 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ArticuloListActivity"
-            android:label="@string/title_articulo_list"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ArticuloDetailActivity"
-            android:label="@string/title_articulo_detail"
-            android:parentActivityName=".ArticuloListActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.masterdetail.ArticuloListActivity" />
-        </activity>
-        <activity
             android:name=".ActivityDetalleArticulo"
             android:label="@string/title_activity_detalle_articulo"
             android:theme="@style/AppTheme.NoActionBar" />

@@ -17,7 +17,7 @@ public class ActivityDetalleArticulo extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_detalle);
         setSupportActionBar(toolbar);
-
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         if (!getResources().getBoolean(R.bool.esTablet)) {
             ActionBar actionBar = getSupportActionBar();
             if (actionBar != null) {
